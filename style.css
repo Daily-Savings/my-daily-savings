@@ -1,0 +1,52 @@
+:root {
+    --font-primary: 'segeo ui', sans-serif;
+    --font-body: 'segeo ui light', sans-serif;
+    
+    --color-primary: #003f7d;
+    --color-primary-dark: #003366;
+    --color-dark: #002347;
+
+    --color-black: #131313;
+    --color-white: #ebebeb;
+
+    --fontsize-primary: 2.5rem;
+    --fontsize-secondary: 2rem;
+    --fontsize-body: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--fontsize-body);
+    color: var(--color-dark);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: var(--fontsize-secondary);
+    font-family: var(--font-primary);
+    color: var(--color-dark);
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: var(--fontsize-secondary);
+    font-family: var(--font-primary);
+    color: var(--color-primary-dark);
+    font-weight: 700;
+}
