@@ -50,3 +50,7 @@ h2 {
     color: var(--color-primary-dark);
     font-weight: 700;
 }
+
+.terms {
+    font-weight: 600;
+}
