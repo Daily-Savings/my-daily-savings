@@ -54,3 +54,7 @@ h2 {
 .terms {
     font-weight: 600;
 }
+
+.small {
+    font-size: x-large !important;
+}
